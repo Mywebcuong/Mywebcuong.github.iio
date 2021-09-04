@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+h1{
+    color: red;
+}
+#tieude{
+	background-color: blue;
+	padding: 40px;
+	text-align: center;
+}
+nav{
+	background-color: #260033;
+	overflow: hidden;
+}
+nav a {
+	color: white;
+	padding: 12px 20px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+}
+nav a:hover{
+	background-color: #7b798c;
+	color: white;
+}
