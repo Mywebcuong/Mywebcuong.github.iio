@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game con rắn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="trangchu.html">GameVui</a></h1>
+        <nav>
+            <ul>
+                <li><a href="trangchu.html">Trang chủ</a></li>
+                <li><a href="snake.html">Game con rắn</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Game con rắn</h2>
+        <div id="gameContainer">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>
+        <div id="score">Score: 0</div>
+        <button id="backToHome" onclick="goToHome()">Quay về Trang chủ</button>
+    </main>
+    <script src="game.js"></script>
+    <script>
+        function goToHome() {
+            window.location.href = 'trangchu.html';
+        }
+    </script>
+</body>
+</html>
